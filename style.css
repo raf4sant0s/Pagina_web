@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     color: #ffffff; 
-    font-family: Cambria, sans-serif;  
-    background-color: #0000007f;
+    font-family: Cambria, sans-serif; 
 }
 
 
@@ -17,7 +17,7 @@ header {
     align-items: center; 
     padding: 2vmin 5vmin; 
     flex-wrap: wrap; 
-    background-color: #2222229e;
+    background-color: #00000099;
 }
 
 .logo {
@@ -96,6 +96,8 @@ main {
     max-width: 1200px; 
     margin: 0 auto; 
     min-height: 70vh; 
+    background-color: #0000007f;
+    margin-top: 5vmin;
 }
 
 .conteudo {
@@ -192,5 +194,4 @@ html {
     height: 100vh;
     background-position: center center;
     background-size: cover;
-
 }
